@@ -18,7 +18,7 @@ const renderDetailsButton = (params) => {
       style={{ padding: "6px" }}
       
     >
-      Request
+      Enter
     </Button>
   );
 };
@@ -54,14 +54,16 @@ export const HomePage = () => {
     setOpen(false);
   };
   return (<>
-  <header>
-    <h2><a href="#">Life is a party!</a></h2>
-    <nav>
-      <li><a href="#">Tours</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-    </nav>
-  </header>
+  <div className="navigation">
+  <nav class="stroke">
+    
+    <ul>
+      <li><a href="#">Users</a></li>
+      <li><a href="#">Organisation</a></li>
+      <Link to="/"><li><a href="#">LogOut</a></li></Link>
+    </ul>
+ </nav>
+  </div>
   <div>
  
     <div style={{ height: 400, width: '75%', marginTop: 75, marginLeft:125 }}>
@@ -102,5 +104,6 @@ export const HomePage = () => {
     </div>
     
     </div>
+
   </>);
 };
