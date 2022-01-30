@@ -7,6 +7,7 @@ export const LandingPage = () => {
 
             <header>
                 <h2>Dominator</h2>
+                
             </header>
 
             <section class="hero">

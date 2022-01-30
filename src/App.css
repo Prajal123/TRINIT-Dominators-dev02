@@ -79,7 +79,6 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
   box-shadow: 1px 1px 10px #696969;
 }
 a{
-  display: block;
   text-align: right;
   text-decoration: none;
   color: #fff;
